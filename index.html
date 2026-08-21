@@ -8,181 +8,178 @@
   <link rel="stylesheet" href="part_2.css" />
 </head>
 <body>
- <nav>
-  <img src="IMG-20260723-WA0002.jpg" alt="WebTags Logo" class="logo">
+ <!-- <nav> -->
+
   <header>
-   
+    <img src="IMG-20260723-WA0002.jpg" alt="WebTags Logo" class="logo">
+    <div id="logo div">
+    
     <h1>TAG-MATRIX</h1>
     <p>HTML tags • CSS properties • JavaScript concepts – all in one page with filters</p>
-    <div class="filters">
-      <button class="filter-btn active" data-filter="all"></button>
-      <button class="filter-btn" data-filter="html"></button>
-      <button class="filter-btn" data-filter="css"></button>
-      <button class="filter-btn" data-filter="js"></button>
     </div>
-    <div class="search-box">
-      <input
-       
-      />
+
+    <div>
+      <input type="email">
+      
     </div>
+ <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="html">HTML</button>
+      <button class="filter-btn" data-filter="css">CSS</button>
+      <button class="filter-btn" data-filter="js">JavaScript</button>
+    </div>
+
+    
   </header>
-   <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-     
-  </nav>
-   
-  <main>
+  <!-- </nav> -->
+ <main>
     <section class="category-section" data-category="html">
       <h2>HTML Tags Reference</h2>
       <div class="items-grid">
         <div class="item-card" data-category="html" data-name="html doctype">
-          <h3> <span class="tag html"></span></h3>
+          <h3>&lt;!DOCTYPE html&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Defines the document as HTML5. Must be the first line.</p>
         </div>
         <div class="item-card" data-category="html" data-name="html tag">
-          <h3><span class="tag html"></span></h3>
+          <h3>&lt;html&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Root element of the page. All content goes inside it.</p>
         </div>
         <div class="item-card" data-category="html" data-name="head tag">
-          <h3><span class="tag html"></span></h3>
+          <h3>&lt;head&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Contains meta info, title, links to CSS, etc.</p>
         </div>
         <div class="item-card" data-category="html" data-name="body tag">
-          <h3> <span class="tag html"></span></h3>
+          <h3>&lt;body&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Visible content of the page goes here.</p>
         </div>
         <div class="item-card" data-category="html" data-name="h1 h2 h3 headings">
-          <h3><span class="tag html"></span></h3>
+          <h3>&lt;h1&gt; – &lt;h6&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Headings from largest (h1) to smallest (h6).</p>
         </div>
         <div class="item-card" data-category="html" data-name="p paragraph">
-          <h3> <span class="tag html"></span></h3>
+          <h3>&lt;p&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Defines a paragraph of text.</p>
         </div>
         <div class="item-card" data-category="html" data-name="a anchor link">
-          <h3> <span class="tag html"></span></h3>
+          <h3>&lt;a&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Creates a clickable link to another page or URL.</p>
         </div>
         <div class="item-card" data-category="html" data-name="img image">
-          <h3><span class="tag html"></span></h3>
+          <h3>&lt;img&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Embeds an image. Use src for path and alt for description.</p>
         </div>
         <div class="item-card" data-category="html" data-name="ul ol li list">
-          <h3><span class="tag html"></span></h3>
+          <h3>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Unordered (ul) and ordered (ol) lists with items (li).</p>
         </div>
         <div class="item-card" data-category="html" data-name="div section header footer">
-          <h3><span class="tag html"></span></h3>
+          <h3>&lt;div&gt;, &lt;section&gt;, &lt;header&gt;, &lt;footer&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Layout and semantic tags to structure your page.</p>
         </div>
         <div class="item-card" data-category="html" data-name="table tr th td">
-          <h3><span class="tag html"></span></h3>
+          <h3>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
-        </div>
+          <p>Creates a table with rows (tr), header cells (th), and data cells (td).</p>
         </div>
         <div class="item-card" data-category="html" data-name="form input button">
-          <h3> <span class="tag html"></span></h3>
+          <h3>&lt;form&gt;, &lt;input&gt;, &lt;button&gt; <span class="tag html">HTML</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Creates forms for user input and submission.</p>
         </div>
       </div>
     </section>
     <section class="category-section" data-category="css">
-      <h2></h2>
+      <h2>CSS Properties Reference</h2>
       <div class="items-grid">
         <div class="item-card" data-category="css" data-name="css color">
-          <h3><span class="tag css"></span></h3>
+          <h3>color <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Sets the text color of an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css background-color">
-          <h3> <span class="tag css"></span></h3>
+          <h3>background-color <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Sets the background color of an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css font-size font-family">
-          <h3><span class="tag css"></span></h3>
+          <h3>font-size, font-family <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Controls text size and font type.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css margin padding">
-          <h3><span class="tag css"></span></h3>
+          <h3>margin, padding <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>margin adds space outside, padding adds space inside an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css display flex grid">
-          <h3><span class="tag css"></span></h3>
+          <h3>display: flex, grid <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Modern layout systems for arranging items in rows and columns.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css border border-radius">
-          <h3> <span class="tag css"></span></h3>
+          <h3>border, border-radius <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Creates borders and rounded corners.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css width height">
-          <h3><span class="tag css"></span></h3>
+          <h3>width, height <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Sets the size of an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css text-align">
-          <h3><span class="tag css"></span></h3>
+          <h3>text-align <span class="tag css">CSS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Aligns text: left, center, right, justify.</p>
         </div>
       </div>
     </section>
     <section class="category-section" data-category="js">
-      <h2></h2>
+      <h2>JavaScript Concepts Reference</h2>
       <div class="items-grid">
         <div class="item-card" data-category="js" data-name="js let const var">
-          <h3> <span class="tag js"></span></h3>
+          <h3>let, const, var <span class="tag js">JS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Ways to declare variables. Prefer let and const.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js function arrow">
-          <h3><span class="tag js"></span></h3>
+          <h3>function, arrow function <span class="tag js">JS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Defines reusable blocks of code. Arrow functions are shorter syntax.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js array map filter">
-          <h3> <span class="tag js"></span></h3>
+          <h3>array, map, filter <span class="tag js">JS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Arrays store lists; map and filter transform them.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js dom queryselector">
-          <h3><span class="tag js"></span></h3>
+          <h3>DOM, querySelector <span class="tag js">JS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>DOM lets JS interact with HTML. querySelector finds elements.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js if else">
-          <h3><span class="tag js"></span></h3>
+          <h3>if, else <span class="tag js">JS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Conditional logic to run code based on conditions.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js for loop">
-          <h3><span class="tag js"></span></h3>
+          <h3>for loop <span class="tag js">JS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Repeats a block of code multiple times.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js fetch api">
-          <h3> <span class="tag js"></span></h3>
+          <h3>fetch (API calls) <span class="tag js">JS</span></h3>
           <pre></pre>
-          <p></p>
+          <p>Makes HTTP requests to get or send data from servers.</p>
         </div>
       </div>
     </section>
