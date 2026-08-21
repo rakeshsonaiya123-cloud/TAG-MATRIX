@@ -15,9 +15,16 @@ header {
   background: #111;
   color: #fff;
   padding: 1.5rem;
-  border-radius: 10px;
+  border-radius: 50px;
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: center;display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+nav{
+  background-color: #020101;
 }
 header h1 {
   margin-bottom: 0.3rem;
@@ -163,4 +170,3 @@ object-fit:cover;
   top: 0;
   z-index: 1000;
 }
-
