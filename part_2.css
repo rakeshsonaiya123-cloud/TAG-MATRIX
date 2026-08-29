@@ -99,7 +99,7 @@ main {
 .item-card h3 {
   margin: 0 0 0.4rem;
   font-size: 1.05rem;
-  color: #161414;
+  color: #100e0e;
 }
 .item-card .tag {
   display: inline-block;
@@ -122,11 +122,12 @@ main {
   color: #ef6c00;
 }
 .item-card pre {
-  background: #f3efef;
+  background: #0c0c0c;
   padding: 0.5rem;
   border-radius: 5px;
   font-size: 0.85rem;
   overflow-x: auto;
+  color:#e3f2fd;
   margin: 0.4rem 0;
 }
 .item-card p {
