@@ -42,62 +42,75 @@
       <div class="items-grid">
         <div class="item-card" data-category="html" data-name="html doctype">
           <h3>&lt;!DOCTYPE html&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;!DOCTYPE html&gt;</pre>
           <p>Defines the document as HTML5. Must be the first line.</p>
         </div>
         <div class="item-card" data-category="html" data-name="html tag">
           <h3>&lt;html&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;html lang="en"&gt; ... &lt;/html&gt;</pre>
           <p>Root element of the page. All content goes inside it.</p>
         </div>
         <div class="item-card" data-category="html" data-name="head tag">
           <h3>&lt;head&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;head&gt; ... &lt;/head&gt;</pre>
           <p>Contains meta info, title, links to CSS, etc.</p>
         </div>
         <div class="item-card" data-category="html" data-name="body tag">
           <h3>&lt;body&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;body&gt; ... &lt;/body&gt;</pre>
           <p>Visible content of the page goes here.</p>
         </div>
         <div class="item-card" data-category="html" data-name="h1 h2 h3 headings">
           <h3>&lt;h1&gt; – &lt;h6&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Sub Heading&lt;/h2&gt;</pre>
           <p>Headings from largest (h1) to smallest (h6).</p>
         </div>
         <div class="item-card" data-category="html" data-name="p paragraph">
           <h3>&lt;p&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;p&gt;This is a paragraph.&lt;/p&gt;</pre>
           <p>Defines a paragraph of text.</p>
         </div>
         <div class="item-card" data-category="html" data-name="a anchor link">
           <h3>&lt;a&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</pre>
           <p>Creates a clickable link to another page or URL.</p>
         </div>
         <div class="item-card" data-category="html" data-name="img image">
           <h3>&lt;img&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>>&lt;img src="logo.png" alt="Logo" /&gt;</pre>
           <p>Embeds an image. Use src for path and alt for description.</p>
         </div>
         <div class="item-card" data-category="html" data-name="ul ol li list">
           <h3>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</pre>
           <p>Unordered (ul) and ordered (ol) lists with items (li).</p>
         </div>
         <div class="item-card" data-category="html" data-name="div section header footer">
           <h3>&lt;div&gt;, &lt;section&gt;, &lt;header&gt;, &lt;footer&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>>&lt;header&gt;...&lt;/header&gt;
+&lt;section&gt;...&lt;/section&gt;
+&lt;div class="box"&gt;...&lt;/div&gt;
+&lt;footer&gt;...&lt;/footer&gt;</pre>
           <p>Layout and semantic tags to structure your page.</p>
         </div>
         <div class="item-card" data-category="html" data-name="table tr th td">
           <h3>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;table&gt;
+  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Rakesh&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</pre>
           <p>Creates a table with rows (tr), header cells (th), and data cells (td).</p>
         </div>
         <div class="item-card" data-category="html" data-name="form input button">
           <h3>&lt;form&gt;, &lt;input&gt;, &lt;button&gt; <span class="tag html">HTML</span></h3>
-          <pre></pre>
+          <pre>&lt;form&gt;
+  &lt;input type="text" /&gt;
+  &lt;button&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</pre>
           <p>Creates forms for user input and submission.</p>
         </div>
       </div>
@@ -107,42 +120,57 @@
       <div class="items-grid">
         <div class="item-card" data-category="css" data-name="css color">
           <h3>color <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>p { color: #333; }</pre>
           <p>Sets the text color of an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css background-color">
           <h3>background-color <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>body { background-color: #f5f5f5; }</pre>
           <p>Sets the background color of an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css font-size font-family">
           <h3>font-size, font-family <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>h1 {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}</pre>
           <p>Controls text size and font type.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css margin padding">
           <h3>margin, padding <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>.box {
+  margin: 1rem;
+  padding: 0.5rem;
+}</pre>
           <p>margin adds space outside, padding adds space inside an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css display flex grid">
           <h3>display: flex, grid <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>.container {
+  display: flex;
+  gap: 1rem;
+}</pre>
           <p>Modern layout systems for arranging items in rows and columns.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css border border-radius">
           <h3>border, border-radius <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}</pre>
           <p>Creates borders and rounded corners.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css width height">
           <h3>width, height <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>.box {
+  width: 200px;
+  height: 100px;
+}</pre>
           <p>Sets the size of an element.</p>
         </div>
         <div class="item-card" data-category="css" data-name="css text-align">
           <h3>text-align <span class="tag css">CSS</span></h3>
-          <pre></pre>
+          <pre>p { text-align: center; }</pre>
           <p>Aligns text: left, center, right, justify.</p>
         </div>
       </div>
@@ -152,37 +180,55 @@
       <div class="items-grid">
         <div class="item-card" data-category="js" data-name="js let const var">
           <h3>let, const, var <span class="tag js">JS</span></h3>
-          <pre></pre>
+          <pre>let x = 10;
+const name = "Rakesh";
+var old = "avoid";</pre>
           <p>Ways to declare variables. Prefer let and const.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js function arrow">
           <h3>function, arrow function <span class="tag js">JS</span></h3>
-          <pre></pre>
+          <pre>function add(a, b) {
+  return a + b;
+}
+const mul = (a, b) => a * b;</pre>
           <p>Defines reusable blocks of code. Arrow functions are shorter syntax.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js array map filter">
           <h3>array, map, filter <span class="tag js">JS</span></h3>
-          <pre></pre>
+          <pre>const nums = [1, 2, 3];
+const doubled = nums.map(n => n * 2);
+const evens = nums.filter(n => n % 2 === 0);</pre>
           <p>Arrays store lists; map and filter transform them.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js dom queryselector">
           <h3>DOM, querySelector <span class="tag js">JS</span></h3>
-          <pre></pre>
+          <pre>const btn = document.querySelector('#myBtn');
+btn.addEventListener('click', () => {
+  alert('Clicked!');
+});</pre>
           <p>DOM lets JS interact with HTML. querySelector finds elements.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js if else">
           <h3>if, else <span class="tag js">JS</span></h3>
-          <pre></pre>
+          <pre>if (x > 10) {
+  console.log('Big');
+} else {
+  console.log('Small');
+}</pre>
           <p>Conditional logic to run code based on conditions.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js for loop">
           <h3>for loop <span class="tag js">JS</span></h3>
-          <pre></pre>
+          <pre>for (let i = 0; i < 5; i++) {
+  console.log(i);
+}</pre>
           <p>Repeats a block of code multiple times.</p>
         </div>
         <div class="item-card" data-category="js" data-name="js fetch api">
           <h3>fetch (API calls) <span class="tag js">JS</span></h3>
-          <pre></pre>
+          <pre>fetch('https://api.example.com/data')
+  .then(res => res.json())
+  .then(data => console.log(data));</pre>
           <p>Makes HTTP requests to get or send data from servers.</p>
         </div>
       </div>
